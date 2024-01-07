@@ -10,7 +10,7 @@ function SellAll() {
     <section class="content">
       <div class="container-fluid">
         <div class="block-header  pull-left ">
-          <a class="btn btn-sm btn-info waves-effect" href="">
+          <a href="/" class="btn btn-sm btn-info waves-effect">
             Create
           </a>
         </div>
@@ -28,7 +28,7 @@ function SellAll() {
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
               <div class="header">
-                <a class="btn btn-xs btn-info waves-effect" href="">
+                <a href="/" class="btn btn-xs btn-info waves-effect">
                   All (6)
                 </a>
                 {/* <a                                 class="btn btn-xs btn-danger waves-effect text-black"
@@ -123,30 +123,28 @@ function SellAll() {
                         <td>28-Dec-2023</td>
                         <td class="tdTrashAction text-center">
                           <a
+                            href="/"
                             class="btn btn-xs btn-info waves-effect  m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Edit"
                           >
-                            {" "}
-                            <MdEdit />{" "}
+                            <MdEdit />
                           </a>
                           <a
+                            href="/"
                             target="_blank"
                             data-target="#largeModal"
                             class="btn btn-xs btn-success waves-effect ajaxCall dis-none m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Preview"
                           >
-                            {" "}
-                            <FaSearch />{" "}
+                            <FaSearch />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-danger waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Sales Return"
@@ -154,24 +152,22 @@ function SellAll() {
                             <IoMdReturnLeft />{" "}
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-warning waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="PDF Generator"
                           >
-                            {" "}
-                            <MdPictureAsPdf />{" "}
+                            <MdPictureAsPdf />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-warning waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Schedule Manage"
                           >
-                            {" "}
-                            <MdOutlineAccessTimeFilled />{" "}
+                            <MdOutlineAccessTimeFilled />
                           </a>
                         </td>
                       </tr>
@@ -193,26 +189,24 @@ function SellAll() {
                         <td>01-Dec-2023</td>
                         <td class="tdTrashAction text-center">
                           <a
+                            href="/"
                             class="btn btn-xs btn-info waves-effect  m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Edit"
                           >
-                            {" "}
-                            <MdEdit />{" "}
+                            <MdEdit />
                           </a>
                           <a
+                            href="/"
                             target="_blank"
                             data-target="#largeModal"
                             class="btn btn-xs btn-success waves-effect ajaxCall dis-none m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Preview"
                           >
-                            {" "}
-                            <FaSearch />{" "}
+                            <FaSearch />
                           </a>
                           <a
                             class="btn btn-xs btn-danger waves-effect m-b-3"
@@ -221,27 +215,25 @@ function SellAll() {
                             data-placement="top"
                             title="Sales Return"
                           >
-                            <IoMdReturnLeft />{" "}
+                            <IoMdReturnLeft />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-warning waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="PDF Generator"
                           >
-                            {" "}
-                            <MdPictureAsPdf />{" "}
+                            <MdPictureAsPdf />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-warning waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Schedule Manage"
                           >
-                            {" "}
-                            <MdOutlineAccessTimeFilled />{" "}
+                            <MdOutlineAccessTimeFilled />
                           </a>
                         </td>
                       </tr>
@@ -263,55 +255,51 @@ function SellAll() {
                         <td>12-Dec-2023</td>
                         <td class="tdTrashAction text-center">
                           <a
+                            href="/"
                             class="btn btn-xs btn-info waves-effect  m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Edit"
                           >
-                            {" "}
-                            <MdEdit />{" "}
+                            <MdEdit />
                           </a>
                           <a
+                            href="/"
                             target="_blank"
                             data-target="#largeModal"
                             class="btn btn-xs btn-success waves-effect ajaxCall dis-none m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Preview"
                           >
-                            {" "}
                             <FaSearch />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-danger waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Sales Return"
                           >
-                            <IoMdReturnLeft />{" "}
+                            <IoMdReturnLeft />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-warning waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="PDF Generator"
                           >
-                            {" "}
-                            <MdPictureAsPdf />{" "}
+                            <MdPictureAsPdf />
                           </a>
                           <a
+                            href="/"
                             class="btn btn-xs btn-warning waves-effect m-b-3"
-                            href=""
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Schedule Manage"
                           >
-                            {" "}
-                            <MdOutlineAccessTimeFilled />{" "}
+                            <MdOutlineAccessTimeFilled />
                           </a>
                         </td>
                       </tr>

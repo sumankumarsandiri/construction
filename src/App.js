@@ -8,6 +8,8 @@ import ProjectCreate from "./pages/ProjectCreate.jsx";
 import ProductCreate from "./pages/ProductCreate.jsx";
 import SellAll from "./pages/SellAll.jsx";
 import AllProject from "./pages/ProjectAll.jsx";
+// import Login from "../src/components/login/login.jsx";
+
 // import Analytics from "./pages/Analytics.jsx";
 // import Product from "./pages/Product.jsx";
 // import ProductList from "./pages/ProductList.jsx";
@@ -15,6 +17,7 @@ import AllProject from "./pages/ProjectAll.jsx";
 const App = () => {
   return (
     <BrowserRouter>
+      {/* <Login /> */}
       <Sidebar>
         <Routes>
           <Route path="/" element={<Dashboard />} />

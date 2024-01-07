@@ -1,17 +1,68 @@
-.form {
-  display: block;
-  margin-top: 0em;
-  width: 729px;
-  border: 0px solid;
-  border-radius: 1px;
-  margin-top: 60px;
-  margin-left: 151px;
-  padding: 10px;
-  background-color: rgb(243, 243, 243);
+.project-manage-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #fff;
 }
-.card .header {
-  color: #555;
-  padding: 20px;
-  position: relative;
-  border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+
+.project-manage-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+}
+
+.project-manage-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-manage-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-manage-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.project-manage-form .form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.project-manage-form .form-group input,
+.project-manage-form .form-group textarea {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-manage-form button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.project-manage-form button:hover {
+  background-color: #0069d9;
 }
