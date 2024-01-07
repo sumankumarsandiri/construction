@@ -1,0 +1,17 @@
+.form {
+  display: block;
+  margin-top: 0em;
+  width: 729px;
+  border: 0px solid;
+  border-radius: 1px;
+  margin-top: 60px;
+  margin-left: 151px;
+  padding: 10px;
+  background-color: rgb(243, 243, 243);
+}
+.card .header {
+  color: #555;
+  padding: 20px;
+  position: relative;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+}

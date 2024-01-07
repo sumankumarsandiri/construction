@@ -1,0 +1,29 @@
+/* Add this style to your CSS file or use a CSS-in-JS solution like styled-components */
+.admin-menu-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.admin-menu-dropdown ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-menu-dropdown li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.admin-menu-dropdown button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
